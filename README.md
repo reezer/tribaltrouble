@@ -16,7 +16,7 @@ Building
 --------
 Install requirements:
 ```
-pkg install openal lwjgl apache-ant
+pkg install openal lwjgl apache-ant mercurial
 ```
 
 Clone the repository:
