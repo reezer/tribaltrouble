@@ -16,7 +16,7 @@ Building
 --------
 Install requirements:
 ```
-pkg install openal lwjgl
+pkg install openal lwjgl apache-ant
 ```
 
 Clone the repository:
