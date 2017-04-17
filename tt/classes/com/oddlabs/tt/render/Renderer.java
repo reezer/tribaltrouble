@@ -170,7 +170,7 @@ public final strictfp class Renderer {
 	}
 	
 	public final static boolean isRegistered() {
-		return registration_client.isRegistered();
+		return true;
 	}
 	
 	public final static void makeCurrent() {
