@@ -1,0 +1,6 @@
+bin/tribaltrouble
+%%DATADIR%%/jorbis.jar
+%%DATADIR%%/jsquish.jar
+%%DATADIR%%/res.jar
+%%DATADIR%%/tt-code.jar
+%%DATADIR%%/tt-i18n.jar

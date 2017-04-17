@@ -51,7 +51,7 @@ TODO
 
 - [x] Create a startup script
 - [x] Make some kind of dist target work
-- [ ] Create a FreeBSD port
+- [x] Create a FreeBSD port
 
 Contribution
 ------------
