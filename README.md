@@ -1,16 +1,10 @@
-This is a fork intended to work using FreeBSD. If you want
-to run the game on a different platform see:
-
-https://github.com/sunenielsen/tribaltrouble/
-
 Tribal Trouble
 ==============
-Tribal Trouble is a realtime strategy game released by Oddlabs in 2004. In 2014 the source was released under GPL2 license, and can be found in this repository.
+Tribal Trouble is a realtime strategy game released by Oddlabs in 2004. In 2014 the source was released under GPL2 license.
 
-The source is released "as is", and Oddlabs will not be available for help building it, modifying it or any other kind of support. Due to the age of the game, it is reasonable to expect there to be some problems on some systems. Oddlabs has not released updates to the game for years, and do not intend to start updating it now that it is open sourced.
+This is a fork with changes to make the game work properly on FreeBSD.
 
-**If** you know how to code Java, configure ant, use MySQL, and have a **genuine intention** of actually working on the game, you can create an issue for detailed questions about the source.
-
+Like in the original version multiplayer is not working. This may or may not be fixed, in the future.
 
 Building
 --------
@@ -31,4 +25,31 @@ To build the game client, do this:
 cd tt
 ant run
 ```
+
+Changes from the original
+-------------------------
+
+* Updated instructions
+* Support for recent version of lwjgl
+* Game always registered (no registration key/file needed)
+
+TODO
+----
+
+- [ ] Create a startup script
+- [ ] Make some kind of dist target work
+- [ ] Create a FreeBSD port
+
+Contribution
+------------
+
+Patches are welcome, when they are about fixing things or complete functionality. Changes to the
+gameplay are out of the scope of this project. Also patches should stay small compared to their
+benefit.
+
+Resources
+---------
+
+* [https://github.com/sunenielsen/tribaltrouble/](Original Open Source Code)
+
 
