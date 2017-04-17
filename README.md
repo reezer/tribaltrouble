@@ -50,6 +50,6 @@ benefit.
 Resources
 ---------
 
-* [https://github.com/sunenielsen/tribaltrouble/](Original Open Source Code)
+* [Original Open Source Code](https://github.com/sunenielsen/tribaltrouble/)
 
 
