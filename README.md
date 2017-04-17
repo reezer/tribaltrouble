@@ -36,7 +36,7 @@ Changes from the original
 TODO
 ----
 
-- [ ] Create a startup script
+- [x] Create a startup script
 - [ ] Make some kind of dist target work
 - [ ] Create a FreeBSD port
 
