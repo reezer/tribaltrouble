@@ -20,11 +20,24 @@ git clone https://github.com/reezer/tribaltrouble-freebsd.git
 Make sure you have Java SDK at least version 6, and Apache Ant.
 
 
-To build the game client, do this:
+To run the game client, do this:
 ```
 cd tt
 ant run
 ```
+
+To build a dist:
+```
+cd tt
+ant dist
+```
+
+To run the dist, after it was built:
+```
+cd tt/build/dist/freebsd
+./tribaltrouble
+```
+
 
 Changes from the original
 -------------------------
